@@ -60,4 +60,29 @@ git remote -v
 to create ci/cd pipeline in heroku we need 3 info
 1 heroku email=abhiojha251198@gmail.com
 2 heroku api key=
-3 heroku app name
+3 heroku app name=ml-regression -app
+
+BUILD DOCKER IMAGE
+''''
+docker build -t <image_name>:<tagname> 
+
+NOTE: image name for docker must be lower case
+
+
+'''
+docker
+'''
+
+
+'''
+python setup.py install
+'''
+
+
+
+'''
+pip install ipykernel
+'''
+
+
+
